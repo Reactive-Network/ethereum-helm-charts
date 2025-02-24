@@ -36,5 +36,8 @@ spec:
   {{- if .Values.extraPorts }}
     {{ toYaml .Values.extraPorts | nindent 4}}
   {{- end }}
+  {{- if .Values.clusterIP }}
+  {{ toYaml .Values.clusterIP | nindent 2}}
+  {{- end }} 
   selector:
     {{- include "geth.selectorLabels" . | nindent 4 }}

@@ -24,7 +24,8 @@ image:
 mode: "beacon"
 
 # -- Extra args for the prysm container
-extraArgs: []
+extraArgs:
+  []
   ## Example for beacon mode
   #- --holesky
   #- --execution-endpoint=http://your-eth1-node:8551
@@ -132,7 +133,8 @@ ingress:
   # -- Ingress resource for the HTTP API
   enabled: false
   # -- Annotations for Ingress
-  annotations: {}
+  annotations:
+    {}
     # kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
   # -- Ingress host
@@ -186,6 +188,9 @@ validatorReadinessProbe:
   initialDelaySeconds: 10
   periodSeconds: 10
 
+# -- Static clusterIP for service
+clusterIP: {}
+
 # -- P2P Port
 p2pPort: 13000
 
@@ -208,7 +213,7 @@ persistence:
   existingClaim: null
   # -- Access mode for the volume claim template
   accessModes:
-  - ReadWriteOnce
+    - ReadWriteOnce
   # -- Requested size for volume claim template
   size: 20Gi
   # -- Use a specific storage class
@@ -240,25 +245,25 @@ rbac:
   # -- Required ClusterRole rules
   # @default -- See `values.yaml`
   clusterRules:
-     # Required to obtain the nodes external IP
+    # Required to obtain the nodes external IP
     - apiGroups: [""]
       resources:
-      - "nodes"
+        - "nodes"
       verbs:
-      - "get"
-      - "list"
-      - "watch"
+        - "get"
+        - "list"
+        - "watch"
   # -- Required ClusterRole rules
   # @default -- See `values.yaml`
   rules:
     # Required to get information about the services nodePort.
     - apiGroups: [""]
       resources:
-      - "services"
+        - "services"
       verbs:
-      - "get"
-      - "list"
-      - "watch"
+        - "get"
+        - "list"
+        - "watch"
 
 # -- Resource requests and limits
 resources: {}
@@ -279,7 +284,8 @@ securityContext:
 
 # -- The security context for containers
 # @default -- See `values.yaml`
-containerSecurityContext: {}
+containerSecurityContext:
+  {}
   # capabilities:
   #   drop:
   #   - ALL
