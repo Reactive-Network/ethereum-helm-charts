@@ -15,20 +15,20 @@ Helm's [documentation](https://helm.sh/docs) to get started.
 Once Helm has been set up correctly, add the repo as follows:
 
 ```sh
-helm repo add ethereum-helm-charts https://ethpandaops.github.io/ethereum-helm-charts
+helm repo add rnk-ethereum-helm-charts https://reactive-network.github.io/ethereum-helm-charts
 ```
 
 If you had already added this repo earlier, run `helm repo update` to retrieve
 the latest versions of the packages.  You can then run the following command to see the charts.
 
 ```sh
-helm search repo ethereum-helm-charts
+helm search repo rnk-ethereum-helm-charts
 ```
 
 To install the ethstats chart:
 
 ```sh
-helm install ethstats ethereum-helm-charts/ethstats
+helm install ethstats rnk-ethereum-helm-charts/ethstats
 ```
 
 To uninstall the chart:
