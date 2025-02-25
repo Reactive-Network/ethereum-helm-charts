@@ -34,6 +34,7 @@ jobs:
       - name: Add Helm dependency repos
         run: |
           helm repo add bitnami https://charts.bitnami.com/bitnami
+          helm repo add ethpandaops https://ethpandaops.github.io/ethereum-helm-charts
           helm repo update
 
       - name: Run chart-releaser
