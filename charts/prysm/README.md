@@ -18,6 +18,7 @@ An open-source Ethereum 2.0 client, written in Go
 | affinity | object | `{}` | Affinity configuration for pods |
 | annotations | object | `{}` | Annotations for the StatefulSet |
 | checkpointSync | object | `{"enabled":false,"url":""}` | Checkpoint Sync |
+| clusterIP | object | `{}` | Static clusterIP for service |
 | containerSecurityContext | object | See `values.yaml` | The security context for containers |
 | customCommand | list | `[]` | Legacy way of overwriting the default command. You may prefer to change defaultCommandTemplates instead. |
 | defaultBeaconCommandTemplate | string | See `values.yaml` | Template used for the default beacon command |

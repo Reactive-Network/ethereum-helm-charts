@@ -18,6 +18,7 @@ Go Ethereum (Geth for short) is one of the original implementations of the Ether
 | affinity | object | `{}` | Affinity configuration for pods |
 | annotations | object | `{}` | Annotations for the StatefulSet |
 | authPort | int | `8551` | Engine Port (Auth Port) |
+| clusterIP | object | `{}` | Static clusterIP for service |
 | config | string | See `values.yaml` for example | TOML config file |
 | containerSecurityContext | object | See `values.yaml` | The security context for containers |
 | customCommand | list | `[]` | Legacy way of overwriting the default command. You may prefer to change defaultCommandTemplate instead. |
