@@ -14,7 +14,7 @@ This chart acts as an umbrella chart and allows to run a ethereum execution and 
 ## Subcharts
 | Repository | Name | Version |
 |------------|------|---------|
-| file://../besu | besu | 1.0.7 |
+| file://../besu | besu | 1.0.8 |
 | file://../erigon | erigon | 1.0.11 |
 | file://../ethereum-metrics-exporter | ethereum-metrics-exporter | 0.2.0 |
 | file://../ethereumjs | ethereumjs | 0.0.9 |
