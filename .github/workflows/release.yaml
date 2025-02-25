@@ -3,6 +3,7 @@ name: Release Charts
 on:
   push:
     branches: ['master', 'ci', 'main']
+  workflow_dispatch:
 
 jobs:
   release:
