@@ -6,7 +6,7 @@ on:
       - charts/ethereum-node/**
 jobs:
   test:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     concurrency:
       group: ${{ github.head_ref }}-${{ matrix.network }}-${{ matrix.consensus }}-${{ matrix.execution }}
       cancel-in-progress: true
