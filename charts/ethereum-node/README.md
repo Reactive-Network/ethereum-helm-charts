@@ -15,18 +15,18 @@ This chart acts as an umbrella chart and allows to run a ethereum execution and 
 | Repository | Name | Version |
 |------------|------|---------|
 | file://../besu | besu | 1.0.8 |
-| file://../erigon | erigon | 1.0.11 |
+| file://../erigon | erigon | 1.0.12 |
 | file://../ethereum-metrics-exporter | ethereum-metrics-exporter | 0.2.0 |
-| file://../ethereumjs | ethereumjs | 0.0.9 |
-| file://../geth | geth | 1.0.8 |
-| file://../grandine | grandine | 0.1.2 |
-| file://../lighthouse | lighthouse | 1.1.4 |
-| file://../lodestar | lodestar | 1.1.3 |
-| file://../nethermind | nethermind | 1.0.13 |
-| file://../nimbus | nimbus | 1.1.3 |
-| file://../prysm | prysm | 1.1.4 |
-| file://../reth | reth | 0.0.14 |
-| file://../teku | teku | 1.1.3 |
+| file://../ethereumjs | ethereumjs | 0.0.10 |
+| file://../geth | geth | 1.0.9 |
+| file://../grandine | grandine | 0.1.3 |
+| file://../lighthouse | lighthouse | 1.1.5 |
+| file://../lodestar | lodestar | 1.1.4 |
+| file://../nethermind | nethermind | 1.0.14 |
+| file://../nimbus | nimbus | 1.1.4 |
+| file://../prysm | prysm | 1.1.5 |
+| file://../reth | reth | 0.0.15 |
+| file://../teku | teku | 1.1.4 |
 | file://../tracoor-agent | tracoor-agent | 0.0.1 |
 | file://../xatu-sentry | xatu-sentry | 0.0.8 |
 

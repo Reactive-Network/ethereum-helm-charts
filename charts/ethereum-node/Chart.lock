@@ -1,40 +1,40 @@
 dependencies:
 - name: besu
   repository: file://../besu
-  version: 1.0.7
+  version: 1.0.8
 - name: erigon
   repository: file://../erigon
-  version: 1.0.11
+  version: 1.0.12
 - name: ethereumjs
   repository: file://../ethereumjs
-  version: 0.0.9
+  version: 0.0.10
 - name: geth
   repository: file://../geth
-  version: 1.0.8
+  version: 1.0.9
 - name: nethermind
   repository: file://../nethermind
-  version: 1.0.13
+  version: 1.0.14
 - name: reth
   repository: file://../reth
-  version: 0.0.14
+  version: 0.0.15
 - name: grandine
   repository: file://../grandine
-  version: 0.1.2
+  version: 0.1.3
 - name: lighthouse
   repository: file://../lighthouse
-  version: 1.1.4
+  version: 1.1.5
 - name: lodestar
   repository: file://../lodestar
-  version: 1.1.3
+  version: 1.1.4
 - name: nimbus
   repository: file://../nimbus
-  version: 1.1.3
+  version: 1.1.4
 - name: prysm
   repository: file://../prysm
-  version: 1.1.4
+  version: 1.1.5
 - name: teku
   repository: file://../teku
-  version: 1.1.3
+  version: 1.1.4
 - name: ethereum-metrics-exporter
   repository: file://../ethereum-metrics-exporter
   version: 0.2.0
@@ -44,5 +44,5 @@ dependencies:
 - name: tracoor-agent
   repository: file://../tracoor-agent
   version: 0.0.1
-digest: sha256:3086525e579dab1ac0a581b85f55be8af22912f3181951ab9cd259a7c32ce7b0
-generated: "2024-11-29T13:28:33.718182+01:00"
+digest: sha256:cc17fade5713b0103b46bf3d8e785f30be8994b13e5c5ad262b1c673854a0bf5
+generated: "2025-02-25T15:53:47.137831072+02:00"
