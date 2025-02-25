@@ -32,9 +32,10 @@ jobs:
           helm repo add ethpandaops https://ethpandaops.github.io/ethereum-helm-charts
 
       - name: Run chart-releaser
-        uses: helm/chart-releaser-action@v1.6.0
+        uses: helm/chart-releaser-action@v1.7.0
         with:
           charts_dir: charts
           skip_existing: true
+          packages_with_index: true
         env:
           CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
