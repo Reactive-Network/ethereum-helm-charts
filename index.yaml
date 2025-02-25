@@ -1,0 +1,1194 @@
+apiVersion: v1
+entries:
+  armiarma:
+  - apiVersion: v2
+    created: "2025-02-25T14:58:57.325633772Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 13.2.23
+    description: A distributed p2p network monitoring tool
+    digest: 46fd23a36caf147504bcc685821a0222a62482e8246f8bef78e3dcf9864ad0cc
+    home: https://github.com/migalabs/armiarma
+    maintainers:
+    - email: sam.calder-mason@ethereum.org
+      name: samcm
+    name: armiarma
+    type: application
+    urls:
+    - https://github.com/Reactive-Network/ethereum-helm-charts/releases/download/armiarma-0.1.2/armiarma-0.1.2.tgz
+    version: 0.1.2
+  assertoor:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-02-25T14:58:57.583048444Z"
+    description: 'Testing tool that is capable of doing actions and checking conditions
+      on ethereum pos networks. '
+    digest: b13b4f35ad3a0c099d9ea1af856469cf962c4fced96dc036cc6e0b5b401bd528
+    home: https://github.com/ethpandaops/assertoor
+    maintainers:
+    - email: philipp@pk910.de
+      name: pk910
+    name: assertoor
+    sources:
+    - https://github.com/ethpandaops/assertoor
+    type: application
+    urls:
+    - https://github.com/Reactive-Network/ethereum-helm-charts/releases/download/assertoor-1.0.1/assertoor-1.0.1.tgz
+    version: 1.0.1
+  beacon-metrics-gazer:
+  - apiVersion: v2
+    created: "2025-02-25T14:58:57.829329955Z"
+    description: Collects network wide participation metrics given a range of indexes
+    digest: 763c36a4ba7e5802a7cbfd582a14e6c4f45ae06a85145c050e1f4806881173f6
+    home: https://github.com/dapplion/beacon-metrics-gazer
+    maintainers:
+    - email: busa.barnabas@gmail.com
+      name: barnabasbusa
+    name: beacon-metrics-gazer
+    type: application
+    urls:
+    - https://github.com/Reactive-Network/ethereum-helm-charts/releases/download/beacon-metrics-gazer-0.1.4/beacon-metrics-gazer-0.1.4.tgz
+    version: 0.1.4
+  beaconchain-explorer:
+  - apiVersion: v2
+    created: "2025-02-25T14:58:58.082065033Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 11.x.x
+    description: 'Beacon chain explorer built using golang and using a PostgreSQL
+      database for storing and indexing data. '
+    digest: 5ee11290372c5726dfeeae7785fe1a8c7020f9a5c12f5d4f3179846bf5dd258d
+    home: https://beaconcha.in/
+    icon: https://pbs.twimg.com/profile_images/1274442538057961474/-cZGkGhP_400x400.jpg
+    maintainers:
+    - email: rafael@skyle.net
+      name: skylenet
+    name: beaconchain-explorer
+    sources:
+    - https://github.com/gobitfly/eth2-beaconchain-explorer
+    type: application
+    urls:
+    - https://github.com/Reactive-Network/ethereum-helm-charts/releases/download/beaconchain-explorer-0.1.6/beaconchain-explorer-0.1.6.tgz
+    version: 0.1.6
+  besu:
+  - apiVersion: v2
+    created: "2025-02-25T14:58:58.324984165Z"
+    description: 'An Ethereum execution layer client designed to be enterprise-friendly
+      for both public and private, permissioned network use cases. Besu is written
+      in Java and released under the Apache 2.0 Licence. '
+    digest: ca5e1706010d3b2a769673001f55ec90287838941b18d25dc79f2a3db8db57f2
+    home: https://www.hyperledger.org/use/besu
+    icon: https://launchpad.ethereum.org/static/media/hyperledger-besu-circle.b96368c7.png
+    maintainers:
+    - email: rafael@skyle.net
+      name: skylenet
+    - email: busa.barnabas@gmail.com
+      name: barnabasbusa
+    name: besu
+    sources:
+    - https://github.com/hyperledger/besu
+    type: application
+    urls:
+    - https://github.com/Reactive-Network/ethereum-helm-charts/releases/download/besu-1.0.8/besu-1.0.8.tgz
+    version: 1.0.8
+  blob-me-baby:
+  - apiVersion: v2
+    created: "2025-02-25T14:58:58.6453172Z"
+    description: Send arbitrary blob data in well-formatted blobs
+    digest: 73e80e630b592a867eca4562efec34fdc05f9dfe2ecea194a711985c821b07bc
+    maintainers:
+    - email: busa.barnabas@gmail.com
+      name: barnabasbusa
+    name: blob-me-baby
+    type: application
+    urls:
+    - https://github.com/Reactive-Network/ethereum-helm-charts/releases/download/blob-me-baby-0.1.2/blob-me-baby-0.1.2.tgz
+    version: 0.1.2
+  blobscan:
+  - apiVersion: v2
+    created: "2025-02-25T14:58:58.870752853Z"
+    description: Blobscan is the first blockchain explorer that helps to navigate
+      and visualize those EIP-4844 blobs
+    digest: 217a61807c70a4da9a5a61fcc73f72bead7a18a7b5a663e7ce1d10b8542c17b8
+    home: https://github.com/blobscan/blobscan
+    maintainers:
+    - email: sam.calder-mason@ethereum.org
+      name: samcm
+    name: blobscan
+    type: application
+    urls:
+    - https://github.com/Reactive-Network/ethereum-helm-charts/releases/download/blobscan-0.1.1/blobscan-0.1.1.tgz
+    version: 0.1.1
+  blobscan-indexer:
+  - apiVersion: v2
+    created: "2025-02-25T14:58:59.138817064Z"
+    description: Blobscan-indexer indexes blobs in MongoDB for use with Blobscan.
+    digest: 64e8d8252864ffa61ded897aedb1caad15f8e90b4746c33502ec3c24632925cc
+    home: https://github.com/blobscan/blobscan-indexer
+    maintainers:
+    - email: sam.calder-mason@ethereum.org
+      name: samcm
+    name: blobscan-indexer
+    type: application
+    urls:
+    - https://github.com/Reactive-Network/ethereum-helm-charts/releases/download/blobscan-indexer-0.1.1/blobscan-indexer-0.1.1.tgz
+    version: 0.1.1
+  blockscout:
+  - apiVersion: v2
+    created: "2025-02-25T14:58:59.438619492Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 12.x.x
+    - condition: redis.enabled
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 17.x.x
+    - condition: smart-contract-verifier-http.enabled
+      name: smart-contract-verifier-http
+      repository: https://ethpandaops.github.io/ethereum-helm-charts
+      version: 0.1.2
+    description: 'BlockScout provides a comprehensive, easy-to-use interface for users
+      to view, confirm, and inspect transactions on EVM (Ethereum Virtual Machine)
+      blockchains '
+    digest: 4ea26f666cf8f0815041fdde8a311944652c513adc540436a2e4f45888b4a64c
+    home: https://docs.blockscout.com/
+    icon: https://github.com/blockscout/blockscout/raw/master/apps/block_scout_web/assets/static/apple-touch-icon.png
+    maintainers:
+    - email: rafael@skyle.net
+      name: skylenet
+    name: blockscout
+    sources:
+    - https://github.com/blockscout/blockscout/
+    type: application
+    urls:
+    - https://github.com/Reactive-Network/ethereum-helm-charts/releases/download/blockscout-0.2.3/blockscout-0.2.3.tgz
+    version: 0.2.3
+  blutgang:
+  - apiVersion: v2
+    created: "2025-02-25T14:58:59.679345218Z"
+    description: 'Blutgang is a blazing fast, caching, minimalistic load balancer
+      designed with Ethereum''s JSON-RPC in mind. Historical RPC queries are cached
+      in a local database, bypassing the need for slow, repeating calls to your node. '
+    digest: dad935ca57785e3230225f0cce9284a6ca421b06e17fa048439d0ef31447e5fe
+    home: https://github.com/rainshowerLabs/blutgang
+    icon: https://github.com/rainshowerLabs/blutgang/assets/55022497/ec668c7a-5f56-4b26-8386-f112c2f176ce
+    maintainers:
+    - email: busa.barnabas@gmail.com
+      name: barnabasbusa
+    name: blutgang
+    sources:
+    - https://github.com/rainshowerLabs/blutgang
+    type: application
+    urls:
+    - https://github.com/Reactive-Network/ethereum-helm-charts/releases/download/blutgang-0.0.12/blutgang-0.0.12.tgz
+    version: 0.0.12
+  checkpointz:
+  - apiVersion: v2
+    created: "2025-02-25T14:58:59.905372652Z"
+    description: A beacon chain Checkpoint Sync provider
+    digest: 39a2244d62e2f08f853fbe24e32a1a53efa996f7caae9547186dad5501f738ac
+    home: https://github.com/samcm/checkpointz
+    maintainers:
+    - email: sam.calder-mason@ethereum.org
+      name: samcm
+    name: checkpointz
+    type: application
+    urls:
+    - https://github.com/Reactive-Network/ethereum-helm-charts/releases/download/checkpointz-0.1.3/checkpointz-0.1.3.tgz
+    version: 0.1.3
+  consensus-monitor:
+  - apiVersion: v2
+    created: "2025-02-25T14:59:00.180008401Z"
+    description: 'Web UI to monitor the ethereum consensus nodes via their beaconchain
+      APIs. '
+    digest: 184ff4cb02be9c799aa453c6342fcb9fcdd9d69d2b91e273616d438a91f552cd
+    home: https://github.com/ralexstokes/ethereum_consensus_monitor/
+    icon: https://ethereum.org/static/c48a5f760c34dfadcf05a208dab137cc/31987/eth-diamond-rainbow.png
+    maintainers:
+    - email: rafael@skyle.net
+      name: skylenet
+    name: consensus-monitor
+    sources:
+    - https://github.com/ralexstokes/ethereum_consensus_monitor/
+    type: application
+    urls:
+    - https://github.com/Reactive-Network/ethereum-helm-charts/releases/download/consensus-monitor-0.1.3/consensus-monitor-0.1.3.tgz
+    version: 0.1.3
+  contributoor:
+  - apiVersion: v2
+    created: "2025-02-25T14:59:00.447219979Z"
+    description: A lightweight sidecar that runs alongside an Ethereum consensus client
+      and collects data.
+    digest: 22a9693cb0bf3c0722f72cfcca1ee4c9a3c41b9cad26b09f5e80fe6a2bff2a72
+    home: https://github.com/ethpandaops/contributoor
+    maintainers:
+    - email: sam.calder-mason@ethereum.org
+      name: samcm
+    - email: andrew.davis@ethereum.org
+      name: savid
+    - email: matt.evans@ethereum.org
+      name: matty
+    name: contributoor
+    type: application
+    urls:
+    - https://github.com/Reactive-Network/ethereum-helm-charts/releases/download/contributoor-0.0.1/contributoor-0.0.1.tgz
+    version: 0.0.1
+  dora:
+  - apiVersion: v2
+    created: "2025-02-25T14:59:00.709027972Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 12.x.x
+    description: A Beaconchain explorer is a tool that allows users to view and interact
+      with the data on the Ethereum Beacon Chain. It is similar to a blockchain explorer,
+      which allows users to view data on a blockchain such as the current state of
+      transactions and blocks - but focussed on exploring the beaconchain.
+    digest: c8e0d067efec51c2a6592097718f9831189b501c860132594826ea6cb14c96c3
+    home: https://github.com/pk910/dora
+    maintainers:
+    - email: busa.barnabas@gmail.com
+      name: barnabasbusa
+    - email: pk910@pk910.de
+      name: pk910
+    name: dora
+    type: application
+    urls:
+    - https://github.com/Reactive-Network/ethereum-helm-charts/releases/download/dora-0.0.7/dora-0.0.7.tgz
+    version: 0.0.7
+  dshackle:
+  - apiVersion: v2
+    created: "2025-02-25T14:59:00.944581213Z"
+    dependencies:
+    - condition: redis.enabled
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 16.x.x
+    description: 'Emerald Dshackle is a Fault Tolerant Load Balancer for Blockchain
+      API. Support for standard Bitcoin and Ethereum JSON RPC API over HTTP and WebSocket. '
+    digest: 4866c4082cc2c964fab2844172831fd9cffddf9b05b8ff1f4ac58d91563ab278
+    home: https://github.com/emeraldpay/dshackle
+    icon: https://avatars.githubusercontent.com/u/49622339?s=200&v=4
+    maintainers:
+    - email: rafael@skyle.net
+      name: skylenet
+    name: dshackle
+    sources:
+    - https://github.com/emeraldpay/dshackle
+    type: application
+    urls:
+    - https://github.com/Reactive-Network/ethereum-helm-charts/releases/download/dshackle-0.1.9/dshackle-0.1.9.tgz
+    version: 0.1.9
+  dugtrio:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-02-25T14:59:01.189398189Z"
+    description: 'Fault tolerant load balancer for beacon chain RPC apis '
+    digest: 526026f33473b339204874867074061457f0db132ba70c014b3141a907b8945e
+    home: https://github.com/ethpandaops/dugtrio
+    maintainers:
+    - email: philipp@pk910.de
+      name: pk910
+    name: dugtrio
+    sources:
+    - https://github.com/ethpandaops/dugtrio
+    type: application
+    urls:
+    - https://github.com/Reactive-Network/ethereum-helm-charts/releases/download/dugtrio-0.0.7/dugtrio-0.0.7.tgz
+    version: 0.0.7
+  eleel:
+  - apiVersion: v2
+    created: "2025-02-25T14:59:01.464256289Z"
+    description: A multiplexer for Ethereum execution clients
+    digest: 087ea582a51d73edcc5aca1cdfa366dd4fefc648cc0aca65b00f41c54a15487a
+    home: https://github.com/sigp/eleel
+    maintainers:
+    - email: sam.calder-mason@ethereum.org
+      name: samcm
+    - email: andrew.davis@ethereum.org
+      name: savid
+    name: eleel
+    type: application
+    urls:
+    - https://github.com/Reactive-Network/ethereum-helm-charts/releases/download/eleel-0.1.6/eleel-0.1.6.tgz
+    version: 0.1.6
+  erigon:
+  - apiVersion: v2
+    created: "2025-02-25T14:59:01.703784321Z"
+    description: Erigon, formerly known as Turbo‐Geth, is a fork of Go Ethereum (geth)
+      oriented toward speed and disk‐space efficiency. Erigon is a completely re-architected
+      implementation of Ethereum, currently written in Go but with implementations
+      in other languages planned. Erigon's goal is to provide a faster, more modular,
+      and more optimized implementation of Ethereum.
+    digest: 4952a84c961549de6e416975b53d9ff4d1b61aaee29ad19a0a94d9333eb58f9c
+    home: https://twitter.com/ErigonEth
+    icon: https://pbs.twimg.com/profile_images/1420080204148576274/-4OFIs2x_400x400.jpg
+    maintainers:
+    - email: rafael@skyle.net
+      name: skylenet
+    - email: busa.barnabas@gmail.com
+      name: barnabasbusa
+    name: erigon
+    sources:
+    - https://github.com/ledgerwatch/erigon
+    type: application
+    urls:
+    - https://github.com/Reactive-Network/ethereum-helm-charts/releases/download/erigon-1.0.12/erigon-1.0.12.tgz
+    version: 1.0.12
+  erpc:
+  - apiVersion: v2
+    created: "2025-02-25T14:59:01.953915621Z"
+    description: eRPC is a fault-tolerant EVM RPC proxy and re-org aware permanent
+      caching solution. It is built with read-heavy use-cases in mind such as data
+      indexing and high-load frontend usage.
+    digest: 0d8da60bfeb237e0408beb44dda81f0fabd2884e6cccc5dbfb61c802d7857f9d
+    home: https://github.com/erpc/erpc
+    maintainers:
+    - email: busa.barnabas@gmail.com
+      name: barnabasbusa
+    - email: pk910@pk910.de
+      name: pk910
+    name: erpc
+    type: application
+    urls:
+    - https://github.com/Reactive-Network/ethereum-helm-charts/releases/download/erpc-0.0.3/erpc-0.0.3.tgz
+    version: 0.0.3
+  eth-faucet:
+  - apiVersion: v2
+    created: "2025-02-25T14:59:02.210960061Z"
+    description: Ether faucet server built with Go and Svelte.
+    digest: 087ad8458446d3380acae5876a8a5d96537467b8f3d720f6e4a335b5b9e295dc
+    home: https://github.com/chainflag/eth-faucet
+    maintainers:
+    - email: sam.calder-mason@ethereum.org
+      name: samcm
+    name: eth-faucet
+    type: application
+    urls:
+    - https://github.com/Reactive-Network/ethereum-helm-charts/releases/download/eth-faucet-0.1.1/eth-faucet-0.1.1.tgz
+    version: 0.1.1
+  eth2-fork-mon:
+  - apiVersion: v2
+    created: "2025-02-25T14:59:02.448903329Z"
+    description: 'Simple client/server to track the (real-time) status of a (configurable)
+      set of eth2 beacon nodes. '
+    digest: bfacc80ad38398402e8fa2650c325280058934abd199581b638829a4f7dcd3bd
+    home: https://github.com/ralexstokes/eth2-fork-mon
+    icon: https://ethereum.org/static/c48a5f760c34dfadcf05a208dab137cc/31987/eth-diamond-rainbow.png
+    maintainers:
+    - email: rafael@skyle.net
+      name: skylenet
+    name: eth2-fork-mon
+    sources:
+    - https://github.com/ralexstokes/eth2-fork-mon
+    type: application
+    urls:
+    - https://github.com/Reactive-Network/ethereum-helm-charts/releases/download/eth2-fork-mon-0.1.3/eth2-fork-mon-0.1.3.tgz
+    version: 0.1.3
+  ethereum-address-metrics-exporter:
+  - apiVersion: v2
+    created: "2025-02-25T14:59:02.712648237Z"
+    description: A prometheus exporter for Ethereum externally owned account and contract
+      addresses
+    digest: 0ace1263395b4bdfb580686227eb32bd84b3801ebdbbd53bb5dbc312bd9a9b6b
+    home: https://github.com/ethpandaops/ethereum-address-metrics-exporter
+    maintainers:
+    - email: andrew.davis@ethereum.org
+      name: savid
+    name: ethereum-address-metrics-exporter
+    type: application
+    urls:
+    - https://github.com/Reactive-Network/ethereum-helm-charts/releases/download/ethereum-address-metrics-exporter-0.1.5/ethereum-address-metrics-exporter-0.1.5.tgz
+    version: 0.1.5
+  ethereum-metrics-exporter:
+  - apiVersion: v2
+    created: "2025-02-25T14:59:02.990967846Z"
+    description: A Prometheus metrics exporter for Ethereum consensus & execution
+      nodes
+    digest: ae35f67b40760177b3aade2d58c1cbaa95413b2ea306296c89f23c276407ed3b
+    home: https://github.com/samcm/ethereum-metrics-exporter
+    maintainers:
+    - email: sam.calder-mason@ethereum.org
+      name: samcm
+    name: ethereum-metrics-exporter
+    type: application
+    urls:
+    - https://github.com/Reactive-Network/ethereum-helm-charts/releases/download/ethereum-metrics-exporter-0.2.0/ethereum-metrics-exporter-0.2.0.tgz
+    version: 0.2.0
+  ethereum-node:
+  - apiVersion: v2
+    created: "2025-02-25T14:59:03.258564895Z"
+    dependencies:
+    - condition: besu.enabled
+      name: besu
+      repository: file://../besu
+      version: 1.0.8
+    - condition: erigon.enabled
+      name: erigon
+      repository: file://../erigon
+      version: 1.0.12
+    - condition: ethereumjs.enabled
+      name: ethereumjs
+      repository: file://../ethereumjs
+      version: 0.0.10
+    - condition: geth.enabled
+      name: geth
+      repository: file://../geth
+      version: 1.0.9
+    - condition: nethermind.enabled
+      name: nethermind
+      repository: file://../nethermind
+      version: 1.0.14
+    - condition: reth.enabled
+      name: reth
+      repository: file://../reth
+      version: 0.0.15
+    - condition: grandine.enabled
+      name: grandine
+      repository: file://../grandine
+      version: 0.1.3
+    - condition: lighthouse.enabled
+      name: lighthouse
+      repository: file://../lighthouse
+      version: 1.1.5
+    - condition: lodestar.enabled
+      name: lodestar
+      repository: file://../lodestar
+      version: 1.1.4
+    - condition: nimbus.enabled
+      name: nimbus
+      repository: file://../nimbus
+      version: 1.1.4
+    - condition: prysm.enabled
+      name: prysm
+      repository: file://../prysm
+      version: 1.1.5
+    - condition: teku.enabled
+      name: teku
+      repository: file://../teku
+      version: 1.1.4
+    - condition: ethereum-metrics-exporter.enabled
+      name: ethereum-metrics-exporter
+      repository: file://../ethereum-metrics-exporter
+      version: 0.2.0
+    - condition: xatu-sentry.enabled
+      name: xatu-sentry
+      repository: file://../xatu-sentry
+      version: 0.0.8
+    - condition: tracoor-agent.enabled
+      name: tracoor-agent
+      repository: file://../tracoor-agent
+      version: 0.0.1
+    description: 'This chart acts as an umbrella chart and allows to run a ethereum
+      execution and consensus layer client. It''s also able to deploy optional monitoring
+      applications. '
+    digest: 414f82cc0639da432802b3dbe1f7dfd874e19ff0d4a6afe5c5c4ce0d543ea86a
+    home: https://ethereum.org
+    icon: https://avatars.githubusercontent.com/u/6250754?s=200&v=4
+    maintainers:
+    - email: rafael@skyle.net
+      name: skylenet
+    name: ethereum-node
+    sources:
+    - https://github.com/ethpandaops/ethereum-helm-charts
+    type: application
+    urls:
+    - https://github.com/Reactive-Network/ethereum-helm-charts/releases/download/ethereum-node-0.0.27/ethereum-node-0.0.27.tgz
+    version: 0.0.27
+  ethereum-validator-metrics-exporter:
+  - apiVersion: v2
+    created: "2025-02-25T14:59:03.507509702Z"
+    description: A prometheus exporter for Ethereum validators
+    digest: 0e0210fdeabebd3f02fe03ab5e318a97e755f80ce69fd6dcc3118322a4c2a753
+    home: https://github.com/ethpandaops/ethereum-validator-metrics-exporter
+    maintainers:
+    - email: andrew.davis@ethereum.org
+      name: savid
+    name: ethereum-validator-metrics-exporter
+    type: application
+    urls:
+    - https://github.com/Reactive-Network/ethereum-helm-charts/releases/download/ethereum-validator-metrics-exporter-0.0.1/ethereum-validator-metrics-exporter-0.0.1.tgz
+    version: 0.0.1
+  ethereumjs:
+  - apiVersion: v2
+    created: "2025-02-25T14:59:03.750611674Z"
+    description: 'The EthereumJS Client is an Ethereum Execution Client (similar to
+      go-ethereum or Nethermind) written in TypeScript/JavaScript, the non-Smart-Contract
+      language Ethereum dApp developers are most familiar with. It is targeted to
+      be a client for research and development and not meant to be used in production
+      on mainnet for the foreseeable future (out of resource and security considerations). '
+    digest: f3ad59445c11ef83865d4b416ad2f3dfd4d688d8fc224531fadf4875ce969bec
+    home: https://ethereumjs.readthedocs.io/en/latest/
+    icon: https://user-images.githubusercontent.com/47108/78779352-d0839500-796a-11ea-9468-fd2a0b3fe1ef.png
+    maintainers:
+    - email: busa.barnabas@gmail.com
+      name: barnabasbusa
+    name: ethereumjs
+    sources:
+    - https://github.com/ethereumjs/ethereumjs-monorepo
+    type: application
+    urls:
+    - https://github.com/Reactive-Network/ethereum-helm-charts/releases/download/ethereumjs-0.0.10/ethereumjs-0.0.10.tgz
+    version: 0.0.10
+  ethstats:
+  - apiVersion: v2
+    created: "2025-02-25T14:59:03.979628117Z"
+    description: 'Visual interface for tracking ethereum network status. It uses WebSockets
+      to receive stats from running nodes and output them through a web interface. '
+    digest: a5e56cd53a83332abd2305ec8da96ae97ef864c8281a512c534a7eb010638880
+    home: https://ethstats.net/
+    maintainers:
+    - email: rafael@skyle.net
+      name: skylenet
+    name: ethstats
+    sources:
+    - https://github.com/goerli/ethstats-server
+    type: application
+    urls:
+    - https://github.com/Reactive-Network/ethereum-helm-charts/releases/download/ethstats-0.1.4/ethstats-0.1.4.tgz
+    version: 0.1.4
+  fauceth:
+  - apiVersion: v2
+    created: "2025-02-25T14:59:04.216031879Z"
+    description: 'Faucet for EVM chains '
+    digest: 13a508203655d280d648df52811507ae80c6c7efd1961d3746de7be13b09d512
+    home: https://github.com/komputing/fauceth
+    icon: https://avatars.githubusercontent.com/u/48826811?s=200&v=4
+    maintainers:
+    - email: rafael@skyle.net
+      name: skylenet
+    name: fauceth
+    sources:
+    - https://github.com/komputing/fauceth
+    type: application
+    urls:
+    - https://github.com/Reactive-Network/ethereum-helm-charts/releases/download/fauceth-0.2.4/fauceth-0.2.4.tgz
+    version: 0.2.4
+  forkmon:
+  - apiVersion: v2
+    created: "2025-02-25T14:59:04.453003584Z"
+    description: This is a little tool to keep track on a set of nodes, and see if
+      they keep in step or if they go out of consensus.
+    digest: 7939b0d122010af834d0c39d98ec48ddede27e3c21fe58b023722cf698c670a5
+    home: https://github.com/ethereum/nodemonitor
+    maintainers:
+    - email: rafael@skyle.net
+      name: skylenet
+    - email: busa.barnabas@gmail.com
+      name: barnabasbusa
+    name: forkmon
+    type: application
+    urls:
+    - https://github.com/Reactive-Network/ethereum-helm-charts/releases/download/forkmon-0.1.6/forkmon-0.1.6.tgz
+    version: 0.1.6
+  forky:
+  - apiVersion: v2
+    created: "2025-02-25T14:59:04.729400118Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 15.x.x
+    description: A beacon chain fork choice viewer
+    digest: e9acc275f1e41b1f32052734faf4ed14096d70c52d2c44e3ab631e464a1595a8
+    home: https://github.com/ethpandaops/forky
+    maintainers:
+    - email: sam.calder-mason@ethereum.org
+      name: samcm
+    - email: andrew.davis@ethereum.org
+      name: savid
+    name: forky
+    type: application
+    urls:
+    - https://github.com/Reactive-Network/ethereum-helm-charts/releases/download/forky-0.2.0/forky-0.2.0.tgz
+    version: 0.2.0
+  ganache:
+  - apiVersion: v2
+    appVersion: 6.12.2
+    created: "2025-02-25T14:59:04.960706756Z"
+    description: 'Ganache is an Ethereum simulator that makes developing Ethereum
+      applications faster, easier, and safer. It includes all popular RPC functions
+      and features (like events) and can be run deterministically to make development
+      a breeze. '
+    digest: 3cb0f0b7b009694fe06107c41663cb9e6a8b4c58481c0d327008cef31ac66e1e
+    home: https://www.trufflesuite.com/ganache
+    icon: https://www.trufflesuite.com/img/ganache-logomark.svg
+    maintainers:
+    - email: rafael@skyle.net
+      name: skylenet
+    name: ganache
+    sources:
+    - https://github.com/trufflesuite/ganache
+    type: application
+    urls:
+    - https://github.com/Reactive-Network/ethereum-helm-charts/releases/download/ganache-0.1.3/ganache-0.1.3.tgz
+    version: 0.1.3
+  genesis-generator:
+  - apiVersion: v2
+    created: "2025-02-25T14:59:05.194808133Z"
+    description: Generate testnet genesis files for the execution and consensus layer
+      clients
+    digest: 26d0683d2a4ceee341ac829c651a243933aaf4b2c379793f11ba0134d0c714f5
+    home: https://github.com/skylenet/ethereum-genesis-generator
+    maintainers:
+    - email: rafael@skyle.net
+      name: skylenet
+    name: genesis-generator
+    sources:
+    - https://github.com/skylenet/ethereum-genesis-generator
+    - https://github.com/protolambda/eth2-testnet-genesis
+    type: application
+    urls:
+    - https://github.com/Reactive-Network/ethereum-helm-charts/releases/download/genesis-generator-0.2.3/genesis-generator-0.2.3.tgz
+    version: 0.2.3
+  geth:
+  - apiVersion: v2
+    created: "2025-02-25T14:59:05.422471411Z"
+    description: 'Go Ethereum (Geth for short) is one of the original implementations
+      of the Ethereum protocol. Currently, it is the most widespread client with the
+      biggest user base and variety of tooling for users and developers. It is written
+      in Go, fully open source and licensed under the GNU LGPL v3 '
+    digest: 0217dc947456efc81960e0dfb597af363e88af9b6421e20f98c09a90d255b191
+    home: https://geth.ethereum.org/
+    icon: https://launchpad.ethereum.org/static/media/gethereum-mascot-circle.75cbd3a5.png
+    maintainers:
+    - email: rafael@skyle.net
+      name: skylenet
+    - email: busa.barnabas@gmail.com
+      name: barnabasbusa
+    name: geth
+    sources:
+    - https://github.com/ethereum/go-ethereum
+    type: application
+    urls:
+    - https://github.com/Reactive-Network/ethereum-helm-charts/releases/download/geth-1.0.9/geth-1.0.9.tgz
+    version: 1.0.9
+  grandine:
+  - apiVersion: v2
+    created: "2025-02-25T14:59:05.675944521Z"
+    description: A currently closed source, but hopefully soon to be open-source Ethereum
+      Consensus layer client, written in Rust.
+    digest: 0e0ef47baaeac986ab93dec4abc9fa8adb56b0d18b5bae854729d8b6aec394ac
+    home: https://sifrai.com
+    icon: https://github.com/sifraitech/grandine/blob/master/gui.png
+    maintainers:
+    - email: busa.barnabas@gmail.com
+      name: barnabasbusa
+    name: grandine
+    sources:
+    - https://github.com/sifraitech/grandine
+    type: application
+    urls:
+    - https://github.com/Reactive-Network/ethereum-helm-charts/releases/download/grandine-0.1.3/grandine-0.1.3.tgz
+    version: 0.1.3
+  hermes:
+  - apiVersion: v2
+    created: "2025-02-25T14:59:05.912143624Z"
+    description: A GossipSub listener and tracer, subscribing to all relevant pubsub
+      topics and traces all protocol interactions.
+    digest: f04c0bc7131bb5fa0936ab4d0eb5fe28cef70ae40008e297182a3fbe5d9d7e7a
+    home: https://github.com/ethpandaops/hermes
+    maintainers:
+    - email: matt.evans@ethereum.org
+      name: matty
+    - email: sam.calder-mason@ethereum.org
+      name: samcm
+    - email: andrew.davis@ethereum.org
+      name: savid
+    name: hermes
+    type: application
+    urls:
+    - https://github.com/Reactive-Network/ethereum-helm-charts/releases/download/hermes-0.0.1/hermes-0.0.1.tgz
+    version: 0.0.1
+  ipfs-cluster:
+  - apiVersion: v2
+    created: "2025-02-25T14:59:06.203493089Z"
+    description: Run ipfs cluster along with kubo (go-ipfs)
+    digest: 039db02a521e9d28c3f46b8b83bc65c5174e140ee078ec6b50b50bda13ed26e9
+    maintainers:
+    - email: rafael@skyle.net
+      name: skylenet
+    name: ipfs-cluster
+    type: application
+    urls:
+    - https://github.com/Reactive-Network/ethereum-helm-charts/releases/download/ipfs-cluster-0.1.14/ipfs-cluster-0.1.14.tgz
+    version: 0.1.14
+  lighthouse:
+  - apiVersion: v2
+    created: "2025-02-25T14:59:06.452114825Z"
+    description: An open-source Ethereum 2.0 client, written in Rust
+    digest: 831567fb033f253bb65ae7925e5089b7abd061c53b1d365e53846c46e3b7961e
+    home: https://lighthouse.sigmaprime.io/
+    icon: https://launchpad.ethereum.org/static/media/lighthouse-circle.e0b82d14.png
+    maintainers:
+    - email: rafael@skyle.net
+      name: skylenet
+    - email: busa.barnabas@gmail.com
+      name: barnabasbusa
+    name: lighthouse
+    sources:
+    - https://github.com/sigp/lighthouse
+    type: application
+    urls:
+    - https://github.com/Reactive-Network/ethereum-helm-charts/releases/download/lighthouse-1.1.5/lighthouse-1.1.5.tgz
+    version: 1.1.5
+  lodestar:
+  - apiVersion: v2
+    created: "2025-02-25T14:59:06.742654327Z"
+    description: Lodestar is a open-source TypeScript implementation of the Ethereum
+      consensus engine.
+    digest: 08fc038355eea8e352510d927984ebc6f39d484adbece8b92b82e6b47b58cdee
+    home: https://lodestar.chainsafe.io/
+    icon: https://raw.githubusercontent.com/ChainSafe/lodestar/master/assets/lodestar_icon_300.png
+    maintainers:
+    - email: rafael@skyle.net
+      name: skylenet
+    - email: busa.barnabas@gmail.com
+      name: barnabasbusa
+    name: lodestar
+    sources:
+    - https://github.com/ChainSafe/lodestar
+    type: application
+    urls:
+    - https://github.com/Reactive-Network/ethereum-helm-charts/releases/download/lodestar-1.1.4/lodestar-1.1.4.tgz
+    version: 1.1.4
+  nethermind:
+  - apiVersion: v2
+    created: "2025-02-25T14:59:06.975172779Z"
+    description: 'Nethermind is an Ethereum execution layer implementation created
+      with the C# .NET tech stack, running on all major platforms including ARM. '
+    digest: dc92bde1b7b010691c3d00149b43da978dfb067d5530c09a0ba99416b9e459e0
+    home: https://nethermind.io/
+    icon: https://launchpad.ethereum.org/static/media/nethermind-circle.fbbf1a32.png
+    maintainers:
+    - email: rafael@skyle.net
+      name: skylenet
+    - email: busa.barnabas@gmail.com
+      name: barnabasbusa
+    name: nethermind
+    sources:
+    - https://github.com/NethermindEth/nethermind
+    type: application
+    urls:
+    - https://github.com/Reactive-Network/ethereum-helm-charts/releases/download/nethermind-1.0.14/nethermind-1.0.14.tgz
+    version: 1.0.14
+  nimbus:
+  - apiVersion: v2
+    created: "2025-02-25T14:59:07.204940983Z"
+    description: An open-source Ethereum consensus layer client, written in Nim
+    digest: bbc73eb6633d3c8317237f0bc221ab7755c23c4d73b4f2fccaac742487ccfcd7
+    home: https://nimbus.guide/
+    icon: https://launchpad.ethereum.org/static/media/nimbus-circle.2752d77b.png
+    maintainers:
+    - email: rafael@skyle.net
+      name: skylenet
+    - email: busa.barnabas@gmail.com
+      name: barnabasbusa
+    name: nimbus
+    sources:
+    - https://github.com/status-im/nimbus-eth2
+    type: application
+    urls:
+    - https://github.com/Reactive-Network/ethereum-helm-charts/releases/download/nimbus-1.1.4/nimbus-1.1.4.tgz
+    version: 1.1.4
+  powfaucet:
+  - apiVersion: v2
+    appVersion: 2.0.0
+    created: "2025-02-25T14:59:07.45398686Z"
+    description: 'PoW Faucet for EVM chains '
+    digest: de105cad77948692e6ac2be8fb8086e58d1e2072ba2fbacd75e56ee86315d690
+    home: https://github.com/pk910/PoWFaucet
+    maintainers:
+    - email: philipp@pk910.de
+      name: pk910
+    name: powfaucet
+    sources:
+    - https://github.com/pk910/PoWFaucet
+    type: application
+    urls:
+    - https://github.com/Reactive-Network/ethereum-helm-charts/releases/download/powfaucet-0.0.5/powfaucet-0.0.5.tgz
+    version: 0.0.5
+  prysm:
+  - apiVersion: v2
+    created: "2025-02-25T14:59:07.695617227Z"
+    description: An open-source Ethereum 2.0 client, written in Go
+    digest: c44666371cfc1afc06e89e716532b153e6681dcc12cb19cdf2071d112f134582
+    home: https://docs.prylabs.network/docs/getting-started/
+    icon: https://launchpad.ethereum.org/static/media/prysmatic-labs-circle.96c803fe.png
+    maintainers:
+    - email: rafael@skyle.net
+      name: skylenet
+    - email: busa.barnabas@gmail.com
+      name: barnabasbusa
+    name: prysm
+    sources:
+    - https://github.com/prysmaticlabs/prysm
+    type: application
+    urls:
+    - https://github.com/Reactive-Network/ethereum-helm-charts/releases/download/prysm-1.1.5/prysm-1.1.5.tgz
+    version: 1.1.5
+  reth:
+  - apiVersion: v2
+    created: "2025-02-25T14:59:07.97905634Z"
+    description: 'Reth (short for Rust Ethereum, pronunciation) is a new Ethereum
+      full node implementation that is focused on being user-friendly, highly modular,
+      as well as being fast and efficient. Reth is an Execution Layer (EL) and is
+      compatible with all Ethereum Consensus Layer (CL) implementations that support
+      the Engine API. It is originally built and driven forward by Paradigm, and is
+      licensed under the Apache and MIT licenses. '
+    digest: eca9c6e6fbdcefbbcb10d3dde984b5033333d7d58afd482a5f6c82d09fe43f95
+    home: https://www.paradigm.xyz/2022/12/reth
+    icon: https://github.com/paradigmxyz/reth/raw/main/assets/reth.jpg
+    maintainers:
+    - email: busa.barnabas@gmail.com
+      name: barnabasbusa
+    name: reth
+    sources:
+    - https://github.com/paradigmxyz/reth/
+    type: application
+    urls:
+    - https://github.com/Reactive-Network/ethereum-helm-charts/releases/download/reth-0.0.15/reth-0.0.15.tgz
+    version: 0.0.15
+  rpc-proxy:
+  - apiVersion: v2
+    created: "2025-02-25T14:59:08.225950171Z"
+    description: A proxy for web3 JSONRPC
+    digest: 710717af9d9996b98a50a84fe4fb00e5eecbc7a14ae5bcdea4162145c61f0230
+    home: https://github.com/gochain/rpc-proxy
+    maintainers:
+    - email: rafael@skyle.net
+      name: skylenet
+    name: rpc-proxy
+    type: application
+    urls:
+    - https://github.com/Reactive-Network/ethereum-helm-charts/releases/download/rpc-proxy-0.1.2/rpc-proxy-0.1.2.tgz
+    version: 0.1.2
+  rpc-snooper:
+  - apiVersion: v2
+    created: "2025-02-25T14:59:08.442148718Z"
+    description: Lightweight RPC proxy tool designed for debugging and monitoring
+      RPC calls between Ethereum clients
+    digest: 89ed0ca7a97d81d907973a1acc5874c7ecec4308a5ba5fae5113cb68b2d3b712
+    home: https://github.com/ethpandaops/rpc-snooper
+    maintainers:
+    - email: busa.barnabas@gmail.com
+      name: barnabasbusa
+    - email: philipp@pk910.de
+      name: pk910
+    name: rpc-snooper
+    type: application
+    urls:
+    - https://github.com/Reactive-Network/ethereum-helm-charts/releases/download/rpc-snooper-0.0.1/rpc-snooper-0.0.1.tgz
+    version: 0.0.1
+  smart-contract-verifier-http:
+  - apiVersion: v2
+    created: "2025-02-25T14:59:08.683947276Z"
+    description: 'Smart-contract verification service. Runs as an HTTP server and
+      allows making verification requests through REST API. '
+    digest: 52c6dc6ac63bc25f3d50022508c67ac3de612c0de6619f64c82bb3add46ad7c8
+    home: https://github.com/blockscout/blockscout-rs/tree/main/smart-contract-verifier-http
+    maintainers:
+    - email: rafael@skyle.net
+      name: skylenet
+    name: smart-contract-verifier-http
+    sources:
+    - https://github.com/blockscout/blockscout-rs/tree/main/smart-contract-verifier-http
+    type: application
+    urls:
+    - https://github.com/Reactive-Network/ethereum-helm-charts/releases/download/smart-contract-verifier-http-0.1.4/smart-contract-verifier-http-0.1.4.tgz
+    version: 0.1.4
+  splitoor:
+  - apiVersion: v2
+    created: "2025-02-25T14:59:08.92108992Z"
+    description: Monitor 0xSplits, validators, gnosis safe's and provide notifications
+      on relevant events
+    digest: eab41959e016e29acd5b4d669d1d65c1518909f849259c789d75d19ec27ce013
+    home: https://github.com/ethpandaops/splitoor
+    maintainers:
+    - email: andrew.davis@ethereum.org
+      name: savid
+    name: splitoor
+    type: application
+    urls:
+    - https://github.com/Reactive-Network/ethereum-helm-charts/releases/download/splitoor-0.0.1/splitoor-0.0.1.tgz
+    version: 0.0.1
+  stubbies:
+  - apiVersion: v2
+    created: "2025-02-25T14:59:09.161167783Z"
+    description: Ethereum execution client stub for consensus layer clients.
+    digest: bb7f116cd549118280c510898d8d1db27c72a7a789ab2c52dbce8b67d4366b9f
+    home: https://github.com/ethpandaops/stubbies
+    maintainers:
+    - email: andrew.davis@ethereum.org
+      name: savid
+    name: stubbies
+    type: application
+    urls:
+    - https://github.com/Reactive-Network/ethereum-helm-charts/releases/download/stubbies-0.0.2/stubbies-0.0.2.tgz
+    version: 0.0.2
+  teku:
+  - apiVersion: v2
+    created: "2025-02-25T14:59:09.420573719Z"
+    description: An open-source Ethereum 2.0 client, written in Java
+    digest: 11a8d45f0a546f08d7d195d3a87aac66b579d6675cec6f3e6a9c5364a63de77a
+    home: https://consensys.net/knowledge-base/ethereum-2/teku/
+    icon: https://launchpad.ethereum.org/static/media/pegasys-teku-circle.4147bb69.png
+    maintainers:
+    - email: rafael@skyle.net
+      name: skylenet
+    - email: busa.barnabas@gmail.com
+      name: barnabasbusa
+    name: teku
+    sources:
+    - https://github.com/Consensys/teku/
+    type: application
+    urls:
+    - https://github.com/Reactive-Network/ethereum-helm-charts/releases/download/teku-1.1.4/teku-1.1.4.tgz
+    version: 1.1.4
+  testnet-faucet:
+  - apiVersion: v2
+    created: "2025-02-25T14:59:09.685632321Z"
+    description: Ethereum faucet used for testnets
+    digest: 018cec302d1bbb4cd457f1906331cafddc8cfeeda1dca5d136f45964bcb9f38e
+    home: https://github.com/parithosh/testnet-faucet
+    maintainers:
+    - email: rafael@skyle.net
+      name: skylenet
+    name: testnet-faucet
+    type: application
+    urls:
+    - https://github.com/Reactive-Network/ethereum-helm-charts/releases/download/testnet-faucet-0.1.3/testnet-faucet-0.1.3.tgz
+    version: 0.1.3
+  testnet-homepage:
+  - apiVersion: v2
+    created: "2025-02-25T14:59:09.917735071Z"
+    description: Ethereum testnet homepage that is used to display testnet relevant
+      information
+    digest: 1bcfd4137a3ca684021c48eb93b47ea29d59616da66b804983c06ae1f38957cc
+    home: https://github.com/skylenet/ethereum-testnet-homepage
+    maintainers:
+    - email: rafael@skyle.net
+      name: skylenet
+    name: testnet-homepage
+    type: application
+    urls:
+    - https://github.com/Reactive-Network/ethereum-helm-charts/releases/download/testnet-homepage-0.2.3/testnet-homepage-0.2.3.tgz
+    version: 0.2.3
+  tracoor-agent:
+  - apiVersion: v2
+    created: "2025-02-25T14:59:10.166071267Z"
+    description: Ethereum debug data capture and indexer
+    digest: 9353ab6c30a1f0ed89b02336504cb1e350f00a6add0cf3fa297737d3347a6789
+    home: https://github.com/ethpandaops/tracoor
+    maintainers:
+    - email: sam.calder-mason@ethereum.org
+      name: samcm
+    - email: andrew.davis@ethereum.org
+      name: savid
+    name: tracoor-agent
+    type: application
+    urls:
+    - https://github.com/Reactive-Network/ethereum-helm-charts/releases/download/tracoor-agent-0.0.1/tracoor-agent-0.0.1.tgz
+    version: 0.0.1
+  tracoor-server:
+  - apiVersion: v2
+    created: "2025-02-25T14:59:10.389131372Z"
+    description: Ethereum debug data capture and indexer
+    digest: 1a8bdbacf9009e9c14d22f6a5dd9979298b2e37aee4a02459eea53c323c36bdd
+    home: https://github.com/ethpandaops/tracoor
+    maintainers:
+    - email: sam.calder-mason@ethereum.org
+      name: samcm
+    - email: andrew.davis@ethereum.org
+      name: savid
+    name: tracoor-server
+    type: application
+    urls:
+    - https://github.com/Reactive-Network/ethereum-helm-charts/releases/download/tracoor-server-0.0.2/tracoor-server-0.0.2.tgz
+    version: 0.0.2
+  tracoor-single:
+  - apiVersion: v2
+    created: "2025-02-25T14:59:10.66369182Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 15.x.x
+    description: Ethereum debug data capture and indexer
+    digest: aef94251b26baf2b0aaf319d397391ab4370190d203db5496344f9e377ec0efe
+    home: https://github.com/ethpandaops/tracoor
+    maintainers:
+    - email: sam.calder-mason@ethereum.org
+      name: samcm
+    - email: andrew.davis@ethereum.org
+      name: savid
+    name: tracoor-single
+    type: application
+    urls:
+    - https://github.com/Reactive-Network/ethereum-helm-charts/releases/download/tracoor-single-0.0.5/tracoor-single-0.0.5.tgz
+    version: 0.0.5
+  web3signer:
+  - apiVersion: v2
+    created: "2025-02-25T14:59:10.926447235Z"
+    dependencies:
+    - alias: slashingprotectiondb
+      condition: slashingprotectiondb.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 12.x.x
+    description: Web3Signer is capable of signing on multiple platforms using private
+      keys stored in an external vault, or encrypted on a disk.
+    digest: 8563d3efd074ac4ba6fc5bcf0c19543ded06c1150204b92bc90bfc51431893c9
+    home: https://github.com/Consensys/web3signer/
+    maintainers:
+    - email: busa.barnabas@gmail.com
+      name: barnabasbusa
+    - email: rafael@skyle.net
+      name: skylenet
+    name: web3signer
+    type: application
+    urls:
+    - https://github.com/Reactive-Network/ethereum-helm-charts/releases/download/web3signer-1.0.6/web3signer-1.0.6.tgz
+    version: 1.0.6
+  xatu-cannon:
+  - apiVersion: v2
+    created: "2025-02-25T14:59:11.161146863Z"
+    description: Ethereum p2p monitoring tool that runs along side a Ethereum consensus
+      client and collects data via the consensus client's Beacon API.
+    digest: 9d207d66d86a1743734f49acb408193c1c3ab58673cda197cfe40d8949bcf6a6
+    home: https://github.com/ethpandaops/xatu
+    maintainers:
+    - email: sam.calder-mason@ethereum.org
+      name: samcm
+    - email: andrew.davis@ethereum.org
+      name: savid
+    name: xatu-cannon
+    type: application
+    urls:
+    - https://github.com/Reactive-Network/ethereum-helm-charts/releases/download/xatu-cannon-0.2.2/xatu-cannon-0.2.2.tgz
+    version: 0.2.2
+  xatu-cl-mimicry:
+  - apiVersion: v2
+    created: "2025-02-25T14:59:11.407546293Z"
+    description: Ethereum p2p monitoring tool that collects data from the consensus
+      layer.
+    digest: 24b9ca31e022e73bc056abb22c8f4723d9cf332acbfed540cbbaeca0804e79cc
+    home: https://github.com/ethpandaops/xatu
+    maintainers:
+    - email: sam.calder-mason@ethereum.org
+      name: samcm
+    - email: andrew.davis@ethereum.org
+      name: savid
+    name: xatu-cl-mimicry
+    type: application
+    urls:
+    - https://github.com/Reactive-Network/ethereum-helm-charts/releases/download/xatu-cl-mimicry-0.0.2/xatu-cl-mimicry-0.0.2.tgz
+    version: 0.0.2
+  xatu-discovery:
+  - apiVersion: v2
+    created: "2025-02-25T14:59:11.659788419Z"
+    description: Ethereum p2p monitoring tool that discovers node records.
+    digest: 6bcc0c9001adb240630629d1678d41be982cfead434eb1d939f4771f58406eac
+    home: https://github.com/ethpandaops/xatu
+    maintainers:
+    - email: sam.calder-mason@ethereum.org
+      name: samcm
+    - email: andrew.davis@ethereum.org
+      name: savid
+    name: xatu-discovery
+    type: application
+    urls:
+    - https://github.com/Reactive-Network/ethereum-helm-charts/releases/download/xatu-discovery-0.0.6/xatu-discovery-0.0.6.tgz
+    version: 0.0.6
+  xatu-mimicry:
+  - apiVersion: v2
+    created: "2025-02-25T14:59:11.92482605Z"
+    description: Ethereum p2p monitoring tool that collects data from the execution
+      layer.
+    digest: 9f23de397a58abaf06b95650cce2d99f64d26a69c0770b47e276e22b51d720a0
+    home: https://github.com/ethpandaops/xatu
+    maintainers:
+    - email: sam.calder-mason@ethereum.org
+      name: samcm
+    - email: andrew.davis@ethereum.org
+      name: savid
+    name: xatu-mimicry
+    type: application
+    urls:
+    - https://github.com/Reactive-Network/ethereum-helm-charts/releases/download/xatu-mimicry-0.0.7/xatu-mimicry-0.0.7.tgz
+    version: 0.0.7
+  xatu-relay-monitor:
+  - apiVersion: v2
+    created: "2025-02-25T14:59:12.141934919Z"
+    description: Xatu Relay Monitor
+    digest: e990e35726c184988b0a51790bd6c58861afdeb82c9d1f03678f6c722a5d5f14
+    home: https://github.com/ethpandaops/xatu
+    maintainers:
+    - email: sam.calder-mason@ethereum.org
+      name: samcm
+    - email: andrew.davis@ethereum.org
+      name: savid
+    name: xatu-relay-monitor
+    type: application
+    urls:
+    - https://github.com/Reactive-Network/ethereum-helm-charts/releases/download/xatu-relay-monitor-0.0.1/xatu-relay-monitor-0.0.1.tgz
+    version: 0.0.1
+  xatu-sage:
+  - apiVersion: v2
+    created: "2025-02-25T14:59:12.387458087Z"
+    description: Ethereum p2p monitoring tool that connects to an Armiarma instance
+      and derives events
+    digest: 206f7879ca3133dddb40f1b8748b45fb3524e8e8a2119a86a79abe9b8664e9e1
+    home: https://github.com/ethpandaops/xatu
+    maintainers:
+    - email: sam.calder-mason@ethereum.org
+      name: samcm
+    - email: andrew.davis@ethereum.org
+      name: savid
+    name: xatu-sage
+    type: application
+    urls:
+    - https://github.com/Reactive-Network/ethereum-helm-charts/releases/download/xatu-sage-0.0.1/xatu-sage-0.0.1.tgz
+    version: 0.0.1
+  xatu-sentry:
+  - apiVersion: v2
+    created: "2025-02-25T14:59:12.606710991Z"
+    description: Ethereum p2p monitoring tool that runs along side a Ethereum consensus
+      client and collects data via the consensus client's Beacon API.
+    digest: 5abdf4915dfcb2be394b3125ce14b396f00b7855326f70bdf2cb3c79f44f1a29
+    home: https://github.com/ethpandaops/xatu
+    maintainers:
+    - email: sam.calder-mason@ethereum.org
+      name: samcm
+    - email: andrew.davis@ethereum.org
+      name: savid
+    name: xatu-sentry
+    type: application
+    urls:
+    - https://github.com/Reactive-Network/ethereum-helm-charts/releases/download/xatu-sentry-0.0.8/xatu-sentry-0.0.8.tgz
+    version: 0.0.8
+  xatu-server:
+  - apiVersion: v2
+    created: "2025-02-25T14:59:12.848651519Z"
+    description: Ethereum p2p monitoring tool that collects events from and controls
+      various Xatu clients.
+    digest: 5147dd861ab6100ce3a626e30f76debc46b0671c9ac90edf68c3137c06f103e7
+    home: https://github.com/ethpandaops/xatu
+    maintainers:
+    - email: sam.calder-mason@ethereum.org
+      name: samcm
+    - email: andrew.davis@ethereum.org
+      name: savid
+    name: xatu-server
+    type: application
+    urls:
+    - https://github.com/Reactive-Network/ethereum-helm-charts/releases/download/xatu-server-0.0.13/xatu-server-0.0.13.tgz
+    version: 0.0.13
+generated: "2025-02-25T14:59:12.848670209Z"
